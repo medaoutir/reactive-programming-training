@@ -5,7 +5,7 @@ import reactor.netty.resources.LoopResources;
 
 public abstract class AbstractHttpClient {
 
-    private static final String BASE_URL = "http://localhost:8080";
+    private static final String BASE_URL = "http://localhost:7070";
     protected final HttpClient httpClient;
 
     public AbstractHttpClient() {
